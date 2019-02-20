@@ -11,7 +11,7 @@ namespace CarRental
     class Program
     {
         private static Store Store { get; set; }
-        public static Customer Customer { get; set; }
+        private static Customer Customer { get; set; }
 
         static void Main(string[] args)
         {
